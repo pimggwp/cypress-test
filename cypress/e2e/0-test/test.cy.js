@@ -13,12 +13,12 @@
 
 describe("example", () => {
   beforeEach(() => {
-    cy.visit("https://hec-paris.blackboard.com/ultra/course"); //add url
+    cy.visit("url"); //add url
   });
 
   it("Login", () => {
-    const username = "saraphan.choowattanapakorn@hec.edu"; //add username
-    const password = "Arthur6235sarah$"; //add password
+    const username = "username"; //add username
+    const password = "password"; //add password
     cy.get("#userNameInput")
       .type(username, { delay: 100 })
       .should("have.value", username);
