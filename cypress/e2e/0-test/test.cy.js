@@ -34,6 +34,6 @@ describe("example", () => {
         return false;
       }
     });
-    cy.visit("https://hec-paris.blackboard.com/auth-saml/saml/redirectToLearn");
+    cy.visit("https://hec-paris.blackboard.com/auth-saml/saml/redirectToLearn"); //redirect
   });
 });
